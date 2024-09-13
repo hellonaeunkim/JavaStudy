@@ -7,5 +7,10 @@ public class Car {
 	// OOP : creating objects that contain both data and methods.
 	// class : an object constructor, or a "blueprint" for creating objects. ex. 붕어빵 
 	
+	// Creating Field -> Type FieldName
+	
+	String name;
+	int number;
+	
 
 }

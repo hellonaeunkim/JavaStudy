@@ -8,7 +8,7 @@ public class Enum {
 		gender1 = Enum.MALE;
 		gender1 = Enum.FEMALE;
 		
-		gender1 = "boy";
+		gender1 = "boy"; // Enum.MALE and Enum.FEMALE 외 다른 String 값도 들어갈 수 있음
 		
 		Gender gender2;
 		gender2 = gender2.MALE;

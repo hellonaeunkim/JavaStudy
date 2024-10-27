@@ -30,6 +30,11 @@ public class Student {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", number=" + number + ", birthYear=" + birthYear + "]";
+	}
+
 	public static void main(String[] args) {
 		Student s1 = new Student();
 		s1.name = "Ann";
@@ -48,16 +53,34 @@ public class Student {
 			
 		System.out.println(s1.hashCode());
 		System.out.println(s2.hashCode());
+
+		System.out.println(s1);
+		System.out.println(s1.toString());
 	}
 
 }
 
 
-/* Object Class
+/* 
+
+* Object Class
 
 1. Object class acts as a root of the inheritance hierarchy in any Java Program. (모든 클래스의 최상위)
 2. Every class in Java is directly or indirectly derived from the Object class.
 3. Object class methods are available to all Java classes.
-4. Object 클래스의 메서드 중 일부는 override 해서 사용할 수 있다.
+4. Object 클래스의 메서드 중 일부는 override 해서 사용할 수 있다. (가장 많이 사용되는 equals, toString, hashCode는 override 필수)
+
+* hashCode()
+
+1. hashCode() method returns the hash code of a string.
+2. hash code : One unique integer value that identifies the object
+
+* equals()
+
+1. equals() method compares two strings, and returns true if the strings are equal, and false if not.
+
+* toString()
+
+1. toString() method returns the string itself.
 
  */

@@ -1,1 +1,1 @@
-java.lang package in Java
+Example of how to use classes in java.lang package.

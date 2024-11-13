@@ -4,8 +4,8 @@ The java.io package contains nearly every class you might ever need to perform i
 
 ## Stream
 A stream can be defined as a sequence of data. There are two kinds of Streams.
--**InPutStream** : The InputStream is used to read data from a source.
--**OutPutStream** : The OutputStream is used for writing data to a destination.
+- **InPutStream** : The InputStream is used to read data from a source.
+- **OutPutStream** : The OutputStream is used for writing data to a destination.
 
 
 ## Byte Streams
